@@ -658,8 +658,8 @@ function Library:create(options)
 		Position = UDim2.new(0, 5, 1, -6),
 		Size = UDim2.new(0.2, 0, 0, 10),
 		Font = Enum.Font.SourceSans,
-		Text = "Status | Idle",
-		Theme = {TextColor3 = "Tertiary"},
+		Text = "Status: Undetected",
+		Theme = {TextColor3 = "Lime"},
 		TextSize = 14,
 		TextXAlignment = Enum.TextXAlignment.Left
 	})
